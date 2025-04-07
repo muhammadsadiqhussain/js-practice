@@ -30,58 +30,74 @@
 
 // Q1
 
-let x = 25;
-let y = 5;
-let z = 2;
+// let x = 25;
+// let y = 5;
+// let z = 2;
 
-let result;
+// let result;
 
-result = (x / y) + (y * z);
-console.log(result);
+// result = (x / y) + (y * z);
+// console.log(result);
 
-// Q2
+// // Q2
 
-let a = 50;
-let b = 80;
-let c = 10;
+// let a = 50;
+// let b = 80;
+// let c = 10;
 
-let percent;
+// let percent;
 
-percent = (a / b) * 100;
-percent = percent + (c / a) * 100;
-console.log(percent);
+// percent = (a / b) * 100;
+// percent = percent + (c / a) * 100;
+// console.log(percent);
 
-// Q3
+// // Q3
 
-let p = 12;
-let q = 4;
-let r = 8;
+// let p = 12;
+// let q = 4;
+// let r = 8;
 
-let answer;
+// let answer;
 
-answer = (p * r) / (q + r); // 8
-answer = answer + q / (p * r);
-console.log(answer);
+// answer = (p * r) / (q + r); // 8
+// answer = answer + q / (p * r);
+// console.log(answer);
 
-// Q4
+// // Q4
 
-let num1 = 17;
-let num2 = 5;
+// let num1 = 17;
+// let num2 = 5;
 
-let modResult;
+// let modResult;
 
-modResult = num1 % num2;
-console.log(modResult);
+// modResult = num1 % num2;
+// console.log(modResult);
 
-// Q5
+// // Q5
 
-// Increment & Decrement
+// // Increment & Decrement
 
-let count = 10;
+// let count = 10;
 
-count++;
-count--;
-count +=5;
-count -=2;
+// count++;
+// count--;
+// count +=5;
+// count -=2;
 
-console.log(count);
+// console.log(count);
+
+// Loop 
+
+// for (let i = 0; i < 10; i++ ){
+//     console.log("sadiq")
+// }
+
+// reverse loop
+
+for (let a = 10; a >= 1; a--) {
+    console.log(a);
+    
+}
+
+
+  
