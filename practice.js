@@ -86,7 +86,54 @@
 
 // console.log(count);
 
+// learning ARREY
+
+// const arr1 = [1, 2, 3, 4, 5];
+
+// arr1.push(6); // using for add value
+// arr1.push(7); // using for add value 
+// arr1.pop();  // usind for remove last value 
+// arr1.unshift("start") // add value in start
+// arr1.shift() // remove value in start 
+
+// console.log(arr1.includes(7)) // includes arrey me koi value find krny ke liye use hota hai  
+                                 // , or iska answer true or false me ata hai
+
+// console.log(arr1);
+
+// const arr2 = ["hammad", "ismail", "tahir", "kashif", "rafey"]
+
+// console.log(arr2.indexOf("tahir")) // indexof arrey me ksi value ki index yani ke wo name list me kis number pr hai 
+                                   //  maloom krny ke liye use hota hai
+
+// const newArr = arr2.join() // .join do arry ko merge krta hai or 1 ki type number or dosry ko string ati hai 
+
+// console.log(typeof newArr)
+// console.log(arr1)
+
+// const newArry = ["Jan", "Fab", "March", "Aprail", "May"]
+
+
+// console.log("A",newArry)
+
+// const myn1 = newArry.slice(2, 4) // .slice ki help se 2 or 4 yani "fab" or "March" ko remove krdeta hai
+
+// console.log(myn1)
+
+// const newArry1 = ["Jan", "Fab", "March", "Aprail", "May", "June"]
+
+// console.log("B",newArry1)
+
+// const myn2 = newArry1.splice()
+
+// console.log(myn2)
+
+
+
+
+
 // Loop 
+
 
 // for (let i = 0; i < 10; i++ ){
 //     console.log("sadiq")
@@ -94,10 +141,10 @@
 
 // reverse loop
 
-for (let a = 10; a >= 1; a--) {
-    console.log(a);
+// for (let a = 10; a >= 1; a--) {
+//     console.log(a);
     
-}
+// }
 
 
   
