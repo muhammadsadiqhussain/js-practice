@@ -128,6 +128,35 @@
 
 // console.log(myn2)
 
+// const cars = ["corrolla" , "swift", "civic", ]
+// const supercars = ["Supra", "Lamborghini", "BMW", "Audi" ]
+
+// cars.push(supercars) // array me ksi value ko end me add krta hai or 1 new array craete krke deta hai 
+                     // ye merge krny ke liye bh use hota hai
+
+// console.log(cars)
+
+// const allcars = cars.concat(supercars) // .concat 2 arrey ko properly merge krta hai
+
+// console.log(allcars)
+
+// const all_new_cars = [...cars, ...supercars] // this method called "spread" and also work same as ".concat"
+
+// console.log(all_new_cars)
+
+// const numberArray = [1, 2, 3,[4, 5, 6,], 7,[8, 8,[9 , 10]]]
+
+// const numberArray1 = numberArray.flat(Infinity) // ".flat" array ke under agr array or humy usko 1 array bnana ho is liye use hota hai
+
+// console.log(numberArray1);
+
+
+// let score = 200
+// let score1 = 400
+// let score2 = 800 
+
+// console.log(Array.of(score, score1, score2)) // ".of" & ".form" convert variable into array
+
 
 
 
