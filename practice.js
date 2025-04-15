@@ -157,6 +157,51 @@
 
 // console.log(Array.of(score, score1, score2)) // ".of" & ".form" convert variable into array
 
+// Assigment
+
+// Q-1
+
+const arry1 = [1, 2, 3, 4];
+
+let sum = 0
+
+for (i = 0; i < arry1.length; i++) {
+    sum = sum + arry1[i]
+}
+
+// console.log("sum" , sum);
+
+// Q-2
+
+const arry2 = [4, 9, 2, 7]
+
+const max = Math.max(4, 9, 2, 7)
+const min = Math.min(4, 9, 2, 7)
+
+// console.log("Maximum", max);
+// console.log("MInimum",min);
+
+// Q-3
+
+const arry3 = [1, 2, 3, 4, 5]
+
+let even = 0;
+let odd = 0;
+
+for (let i = 0; i < arry3.length; i++) {
+    if (arry3[i] % 2 === 0) {
+      evenCount++;
+    } else {
+      oddCount++;
+    }
+  }
+
+  console.log("Even numbers:", evenCount);
+  console.log("Odd numbers:", oddCount);
+    
+
+
+    
 
 
 
