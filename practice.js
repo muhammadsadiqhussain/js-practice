@@ -185,8 +185,8 @@ const min = Math.min(4, 9, 2, 7)
 
 const arry3 = [1, 2, 3, 4, 5]
 
-let even = 0;
-let odd = 0;
+let evenCount = 0;
+let oddCount = 0;
 
 for (let i = 0; i < arry3.length; i++) {
     if (arry3[i] % 2 === 0) {
@@ -196,11 +196,11 @@ for (let i = 0; i < arry3.length; i++) {
     }
   }
 
-  console.log("Even numbers:", evenCount);
-  console.log("Odd numbers:", oddCount);
+  // console.log("Even numbers:", evenCount);
+  // console.log("Odd numbers:", oddCount);
     
 
-
+ 
     
 
 
