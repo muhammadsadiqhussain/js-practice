@@ -200,12 +200,6 @@ for (let i = 0; i < arry3.length; i++) {
   // console.log("Odd numbers:", oddCount);
     
 
- 
-    
-
-
-
-
 // Loop 
 
 
@@ -221,4 +215,23 @@ for (let i = 0; i < arry3.length; i++) {
 // }
 
 
-  
+// object
+
+const user001 = {
+  name: "Sadiq",
+  fatherName: "Hussain",
+  Gender:"Male",
+  Number: "12345678910"
+
+
+}
+
+// console.log(user001.Number) // object me value access krny ka tariqa! 
+// console.log(user001["name"]) // object me value access krny ka tariqa!
+
+
+user001.country = "Pakistan"; // object me value add krny ka tariqa!
+
+delete user001.Number; // object se value delete krny ka tariqa!
+
+// console.log(user001)
