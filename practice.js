@@ -235,3 +235,35 @@ user001.country = "Pakistan"; // object me value add krny ka tariqa!
 delete user001.Number; // object se value delete krny ka tariqa!
 
 // console.log(user001)
+
+
+
+
+const missingFruits = ["apple", "banana", "kiwi", "mango", "blueberry"]
+
+
+
+for(let i = 0; i < missingFruits.length; i++){
+  if(missingFruits[i] === "mango"){
+    // console.log(missingFruits[i],"not availiable");
+
+    break;
+    
+  }
+  else{
+    // console.log(missingFruits[i]);
+    
+  }
+}
+
+// ====================== Table ==================== //
+
+
+
+
+const table = 3;
+
+for(let i = 1; i <= 10; i++){
+  // console.log(`${table} X ${i} = ${table * i}`);
+  
+}
